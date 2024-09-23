@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-ground">
+        <div class="container-fluid nav-space">
+          <a class="navbar-brand " href="#"><img src="images/logo.png" class="img-fluid" style="width:100px; height: 30px; "></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse style1" id="navbarSupportedContent" style="font: Apercu #111827;">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">blog2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">contact</a>
+              </li>
+                </ul>
+              </li>
+            </ul>
+            <a style="text-decoration: none; color:#111827; font-size: 16px; font-weight:500; margin-right: 1%;" href="#" target="_blank">Login</a>
+            <button style="color: white; background-color: #F63A61; border-radius: 60px;border: none;" class="btn btn-outline-success" type="submit">Get Started</button>
+          </div>
+        </div>
+      </nav> 
+      <section class="main-heading container-fluid">
+        <div class="header-text animate__animated animate__backInDown"><h1>INSPIRE</h1></div>
+      </section>
+      <div class="row g-0 bg-body-secondary position-relative">
+        <div class="col-md-6 mb-md-0 p-md-4">
+          <img src="images/pexels2.jpg" class="w-100" alt="...">
+        </div>
+        <div class="col-md-6 p-4 ps-md-0">
+          <h5 class="mt-0">Lorem ipsum dolor sit.</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+
+<!-- <button onclick="myFunction()" id="myBtn" >Read more</button> -->
+          <button type="button" id="myBtn" class="btn btn-secondary" onclick="myFunction()">Read more </button>
+        </div>
+      </div>
+    <ul class="d-flex justify-content-center v">
+      <button class="btn" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('all')"> / </button>
+      <button class="btn" onclick="filterSelection('Creative-design')"> Creative design</button>
+      <button class="btn" onclick="filterSelection('Creative-design')"> / </button>
+      <button class="btn" onclick="filterSelection('Development')"> Development</button>
+      <button class="btn" onclick="filterSelection('Development')"> /</button>
+      <button class="btn" onclick="filterSelection('Graphic-Design')"> Graphic Design</button>
+    </ul>
+    <div class="container-fluid mb-5" style="margin-bottom: 50px;">
+      <div class="row mb-5" style="padding-left:6rem;">
+        <img src="images/filter1.jpg" class="filterDiv Creative-design">
+        <img src="images/filter2.jpg" class="filterDiv Creative-design Graphic-Design">
+        <img src="images/filter3.jpg" class="filterDiv Creative-design Graphic-Design">
+        <img src="images/filter4.jpeg" class="filterDiv Development">
+        <img src="images/filter5.jpg" class="filterDiv Development">
+        <img src="images/filter6.jpg" class="filterDiv Creative-design Graphic-Design">
+      </div>
+      <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                     <h5 class="font-family:DM Serif;">ASPIRE</h5>
+                     <div class="social-icons"> <P style="color: #ffffff;">social media</P>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5>Shop</h5>
+                    <ol class="list-unstyled">
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Releases</a></li>
+                    </ol>
+                </div>
+                <div class="col-md-3">
+                    <h5>Company</h5>
+                    <ol class="list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ol>
+                </div>
+                <div class="col-md-3">
+                    <h5>Stay Up to Date</h5>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Enter your email" style="border: #cadcd0;">
+                            <!-- <button type="submit" class="btn btn-success">Submit</button> -->
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            <div class="row footer-bottom">
+                <div class="col text-center">
+                    <a href="#">Terms</a> | 
+                    <a href="#">Privacy</a> | 
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

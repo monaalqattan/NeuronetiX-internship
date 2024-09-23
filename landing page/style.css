@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button:hover{
+    color: white!important;
+}
+.custom-bg {
+    background-color: #e9f38f;
+}
+header {
+    padding: 2rem 0;
+}
+.navbar-nav .nav-link {
+    color: #153448 !important;
+}
+.nav-link {
+    transition: box-shadow 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+}
+.nav-link:hover {
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.6);
+    border-radius: 5px;
+    color: #007bff;
+}
+
+ul {
+    padding-left: 16rem !important; 
+    font-family:Roboto Condensed;
+}
+.bag-icon {
+    width: 2rem;
+    height: 2rem;
+    color: #153448 !important;
+    margin-right: 1rem;
+}
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-left: 19rem;
+    justify-content: space-between;
+}
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35rem;
+}
+.header-text {
+    color: #153448;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    width: 50%;
+    margin-left: 2rem;
+    margin-bottom:4.5rem;
+}
+.header-image {
+    background-color:#3C5B6F;
+    width:22rem;
+    height: 28rem;
+    border-radius:141px 141px 141px 141px;
+}
+.footer {
+    background-color: #153448;
+    color: white;
+    padding: 3rempx 0;
+    padding-top: 2rem;
+}
+.footer a {
+    color: white;
+}
+.footer a:hover {
+    color: #ddd;
+}
+.footer .social-icons i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.footer .form-control {
+    background-color: #e9f38f;
+    border: 1px solid #e9f38f;
+}
+.footer .form-control::placeholder {
+    color: #153448;
+}
+.footer .btn {
+    background-color: #4db78f;
+    border: none;
+}
+.footer .btn:hover {
+    background-color: #43a381;
+}
+.footer .footer-bottom {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.hero {
+    background-color: #e9f38f;
+    color: #153448;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero .btn {
+    background: #153448;
+    color: white;
+    padding: .8rem .8rem;
+    border: none;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+  }
+  .hover-image {
+    transition: transform 0.9s ease;
+  }
+  .hover-image:hover {
+    transform: translateY(-20px);
+  }
